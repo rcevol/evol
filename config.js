@@ -63,7 +63,8 @@ var config = {
 				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
 		},
-	{	modules: [
+	{	
+		modules: [
 	{
 		module: 'iFrame',
 		position: 'bottom_bar',	// This can be any of the regions.
@@ -76,7 +77,8 @@ var config = {
 		}
 	}
 ]
-},	
+		}
+	},	
 	 {
 			module: "weatherforecast",
 			position: "top_right",
