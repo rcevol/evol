@@ -65,14 +65,13 @@ var config = {
 		},
 	{	modules: [
 	{
-		module: 'iFrameReload',
+		module: 'iFrame',
 		position: 'bottom_bar',	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
-				url: "http://www.protv.ro",
+				url: "http://protv.ro",
 				width: "100%", // Optional. Default: 400px
 				height: "300px", // Optional. Default: 800px
-        			refreshInterval: 3600  //Optional. Default: 3600 = 1 hour
 			}
 		}
 	}
