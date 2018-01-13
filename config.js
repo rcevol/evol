@@ -80,7 +80,7 @@ var config = {
 				feeds: [
 					{
 						title: "Stiri",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						url: "https://img.wall-street.ro/rssfeeds/HomePage.xml"
 					}
 				],
 				showSourceTitle: true,
