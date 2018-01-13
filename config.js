@@ -64,6 +64,14 @@ var config = {
 			}
 		},
 		{
+    module: 'MMM-connection-status',
+    header: "Internet Connection",
+    position: 'top_left', // Or any valid MagicMirror position.
+    config: {
+        // See 'Configuration options' for more information.
+    }
+},
+		{
 			module: "weatherforecast",
 			position: "top_right",
 			header: "Weather Forecast",
