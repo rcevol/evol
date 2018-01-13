@@ -39,7 +39,7 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "CALENDAR SARBATORI",
 			position: "top_left",
 			config: {
 				calendars: [
@@ -66,9 +66,9 @@ var config = {
 		{
 			module: "weatherforecast",
 			position: "top_right",
-			header: "Weather Forecast",
+			header: "Vremea probabila",
 			config: {
-				location: "New York",
+				location: "Targoviste",
 				locationID: "665024",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
@@ -79,7 +79,7 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
+						title: "Stiri",
 						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
 					}
 				],
