@@ -9,6 +9,22 @@
  */
 
 var config = {
+    modules: [
+        {
+            module: 'MMM-GoogleMapsTraffic',
+            position: 'top_left',
+            config: {
+                key: 'YOUR_KEY',
+                lat: 37.8262306,
+                lng: -122.2920096,
+                height: '300px',
+                width: '300px'
+            }
+        }
+    ]
+}
+    
+var config = {
 	address: "localhost", // Address to listen on, can be:
 	                      // - "localhost", "127.0.0.1", "::1" to listen on loopback interface
 	                      // - another specific IPv4/6 to listen on a specific interface
@@ -24,6 +40,7 @@ var config = {
 	language: "en",
 	timeFormat: 24,
 	units: "metric",
+	
 
 	modules: [
 		{
@@ -88,7 +105,7 @@ var config = {
 				feeds: [
 					{
 						title: "STIRI",
-						url: "rss.hotnews.ro"
+						url: "http//rss.hotnews.ro"
 					}
 				],
 				showSourceTitle: true,
