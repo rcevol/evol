@@ -58,9 +58,9 @@ var config = {
 			module: "currentweather",
 			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				location: "Targoviste",
+				locationID: "665024",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
 		},
 		{
@@ -69,8 +69,8 @@ var config = {
 			header: "Weather Forecast",
 			config: {
 				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
+				locationID: "665024",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
 		},
 		{
