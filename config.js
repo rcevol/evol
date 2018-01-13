@@ -80,7 +80,7 @@ var config = {
 				feeds: [
 					{
 						title: "Stiri",
-						url: "https://img.wall-street.ro/rssfeeds/HomePage.xml"
+						url: "https://img.wall-street.ro/rssfeeds/New-Media.xml"
 					}
 				],
 				showSourceTitle: true,
