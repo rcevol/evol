@@ -73,22 +73,6 @@ var config = {
 				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
 		},
-		}
-		modules: [
-	{
-		module: 'iFrameReload',
-		position: 'bottom_bar',	// This can be any of the regions.
-		config: {
-			// See 'Configuration options' for more information.
-				url: "http://YOUR.TARGET.URL",
-				width: "100%", // Optional. Default: 400px
-				height: "300px", // Optional. Default: 800px
-        			refreshInterval: 3600  //Optional. Default: 3600 = 1 hour
-			}
-		}
-	}
-]
-	},
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
@@ -104,6 +88,21 @@ var config = {
 			}
 		},
 	]
+	
+ [
+	{
+		module: 'iFrameReload',
+		position: 'bottom_bar',	// This can be any of the regions.
+		config: {
+			// See 'Configuration options' for more information.
+				url: "http://YOUR.TARGET.URL",
+				width: "100%", // Optional. Default: 400px
+				height: "300px", // Optional. Default: 800px
+        			refreshInterval: 3600  //Optional. Default: 3600 = 1 hour
+			}
+		}
+	}
+]
 
 };
 
