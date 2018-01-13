@@ -45,7 +45,7 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check-o ",
-						url: "webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+						url: "webcal://www.calendarlabs.com/ical-calendar/holidays/romania-holidays-64.ics"
 					}
 				]
 			}
