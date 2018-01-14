@@ -74,6 +74,18 @@ var config = {
 			}
 		},
 		{
+	module: 'MMM-TouchPlayerBasic',
+		position: 'bottom_right',
+		config: {
+			stations: [
+				"R radio", // Separation by space, First part "R" is the .png image filename, the second is .sh script name
+				"P playlist" // The default icons are R for radiostation and P for playlist icon.
+				]
+
+		}
+
+},
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
