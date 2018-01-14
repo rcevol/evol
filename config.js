@@ -73,21 +73,6 @@ var config = {
 				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
 		},
-		{   //Yours starts here at the {
-                        module: ‘email’,
-                        position: ‘bottom_left’,
-                        header: ‘Email’,
-                        config:{
-                        user: ‘cosmin.florica@gmail.com’,
-                        password: ‘EvOl!979’,
-                        host: ‘imap.gmail.com’,
-                        port: 993,
-                        tls: true,
-                        authTimeout: 10000,
-                        numberOfEmails: 5,
-                        fade: true
-                }   // No comma here!
-                },  // Yours ends here
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
