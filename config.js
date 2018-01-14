@@ -89,9 +89,9 @@ var config = {
     },
 		{
 		module: 'MMM-Globe',
-		position: 'lower_third',	// This can be any of the regions. Best results in lower_third
+		position: 'left',	// This can be any of the regions. Best results in lower_third
 		config: {
-                size:"medium", // Globe size. See configuration options below for more options
+                size:"small", // Globe size. See configuration options below for more options
                 locations: [ 
                     // Fill with location Objects if desired
                     // e.g.
@@ -103,6 +103,10 @@ var config = {
                 ]
 		}
 		},
+		{
+    module: 'MMM-Remote-Control', 
+    position: 'bottom_right'
+},
 			{
 	module: 'MMM-TouchPlayerBasic',
 		position: 'bottom_right',
