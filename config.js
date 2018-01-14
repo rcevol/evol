@@ -78,7 +78,7 @@ var config = {
 	position: 'center',
 	config: {
 		style: 'geoColor',
-		imageSize: 600,
+		imageSize: 300,
 		ownImagePath:'',
 		updateInterval: 10*60*1000
 	}
