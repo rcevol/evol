@@ -81,6 +81,13 @@ var config = {
                 }
     },
 		{
+        module: 'MMM-Hello-Mirror',
+        position: 'lower_third',
+        config: {
+            // See 'Configuration options' for more information.
+        }
+    },
+		{
 		module: 'MMM-Globe',
 		position: 'lower_third',	// This can be any of the regions. Best results in lower_third
 		config: {
