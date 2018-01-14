@@ -80,7 +80,7 @@ var config = {
 		style: 'geoColor',
 		imageSize: 300,
 		ownImagePath:'',
-		updateInterval: 10*60*1000
+		updateInterval: 1*60*1000
 	}
 },
 		{
