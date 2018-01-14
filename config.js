@@ -81,6 +81,22 @@ var config = {
                 }
     },
 		{
+		module: 'MMM-Globe',
+		position: 'lower_third',	// This can be any of the regions. Best results in lower_third
+		config: {
+                size:"medium", // Globe size. See configuration options below for more options
+                locations: [ 
+                    // Fill with location Objects if desired
+                    // e.g.
+                    // {lat:37.77493,lng:-122.41942, label: "San Francisco"},
+                    // {lat:-23.5475,lng:-46.63611, label: "Sao Paulo"}
+                    
+                    // Individual values must be seperated by a comma. 
+                    // You can look up the latitude and longitude for a specific location on Google Maps.
+                ]
+		}
+		},
+			{
 	module: 'MMM-TouchPlayerBasic',
 		position: 'bottom_right',
 		config: {
