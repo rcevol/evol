@@ -84,6 +84,13 @@ var config = {
 	}
 },
 		{
+		module: 'MMM-YouTube-API',
+		position: 'top_center',
+                config: {
+                    //Config here
+                }
+    },
+		{
 	module: 'MMM-TouchPlayerBasic',
 		position: 'bottom_right',
 		config: {
