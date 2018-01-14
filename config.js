@@ -74,6 +74,16 @@ var config = {
 			}
 		},
 		{
+	module: 'MMM-Globe',
+	position: 'center',
+	config: {
+		style: 'geoColor',
+		imageSize: 600,
+		ownImagePath:'',
+		updateInterval: 10*60*1000
+	}
+},
+		{
 	module: 'MMM-TouchPlayerBasic',
 		position: 'bottom_right',
 		config: {
