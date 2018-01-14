@@ -72,16 +72,6 @@ var config = {
 				locationID: "665024",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "9a0e3e4ae7351da2114061bd7492886f"
 			}
-		},
-		{
-	module: 'MMM-Globe',
-	position: 'center',
-	config: {
-		style: 'geoColor',
-		imageSize: 300,
-		ownImagePath:'',
-		updateInterval: 1*60*1000
-	}
 },
 		{
 		module: 'MMM-YouTube-API',
