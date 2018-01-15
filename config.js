@@ -74,12 +74,6 @@ var config = {
 			}
 },
 		{
-    module: "alert"
-},
-{
-    module: "MMM-Mobile"
-},
-		{
 		module: 'MMM-YouTube-API',
 		position: 'top_center',
                 config: {
@@ -112,18 +106,6 @@ var config = {
 		{
     module: 'MMM-Remote-Control', 
     position: 'bottom_right'
-},
-			{
-	module: 'MMM-TouchPlayerBasic',
-		position: 'bottom_right',
-		config: {
-			stations: [
-				"R radio", // Separation by space, First part "R" is the .png image filename, the second is .sh script name
-				"P playlist" // The default icons are R for radiostation and P for playlist icon.
-				]
-
-		}
-
 },
 		{
 			module: "newsfeed",
