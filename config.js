@@ -74,6 +74,12 @@ var config = {
 			}
 },
 		{
+    module: "alert"
+},
+{
+    module: "MMM-Mobile"
+},
+		{
 		module: 'MMM-YouTube-API',
 		position: 'top_center',
                 config: {
